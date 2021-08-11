@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Form Biodata</title>
+    </head>
+    <body style="background: rgb(241, 196, 196);">
+        <h3 align = "center"><b>Formulir Biodata</b></h3>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td>:</td>
+                    <td><input type="text" size="23" name="nama" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="TTL">Tempat, Tanggal lahir</label></td>
+                    <td>:</td>
+                    <td><input type="text" size="23" name="TTL" id="TTL"></td>
+                </tr>
+                <tr>
+                    <td><label for="jurusan">Jurusan</label></td>
+                    <td>:</td>
+                    <td><select name="jurusan" id="jurusan">
+                        <option value="">klik di sini</option>
+                        <option value="RPL">Rekayasa Perangkat Lunak</option>
+                        <option value="TKJ">Teknik Komputer Jaringan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea name="al  amat" cols="23" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" name="jkl" id="jkl" value="Pria">
+                        <label for="Pria">Pria</label>
+                        <input type="radio" name="jkl" id="jkl" value="Wanita">
+                        <label for="Wanita">Wanita</label></td>
+                </tr>
+                <tr>
+                    <td><label for="agama">Agama</label></td>
+                    <td>:</td>
+                    <td><select name="agama" id="agama">
+                        <option value="">klik di sini</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Protestan">Protestan</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="notelpon">No. Telpon</label></td>
+                    <td>:</td>
+                    <td><input type="text" size="23" name="notelpon" id="notelpon"></td>
+                </tr>
+                <tr>
+                    <td>Hoby</td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="hoby[]" id="menggambar" value="Menggambar">
+                        <label for="menggambar">Menggambar</label>
+                        <input type="checkbox" name="hoby[]" id="menyanyi" value="Menyanyi">
+                        <label for="menyanyi">Menyanyi</label>
+                        <input type="checkbox" name="hoby[]" id="membaca" value="Membaca">
+                        <label for="membaca">Membaca</label>
+                        <input type="checkbox" name="hoby[]" id="menulis" value="Menulis">
+                        <label for="menulis">Menulis</label>
+                        <input type="checkbox" name="hoby[]" id="melukis" value="Melukis">
+                        <label for="melukis">Melukis</label></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
